@@ -7,6 +7,9 @@ import sys
 import urllib.request as request
 import zipfile
 
+from pathlib import Path 
+
+
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
